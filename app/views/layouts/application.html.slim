@@ -22,7 +22,7 @@ html lang="en"
 							li: a href="/about" About
 							li: a href="/services" Services
 							li: a href="/portfolio" Portfolio
-							li: a href="#" Blog
+							li: a href="#/blog" Blog
 							li: a href="/contact" Contact Me!
 
 		 	==yield
@@ -40,5 +40,11 @@ html lang="en"
 							li: a href="#" Link 3
 							li: a href="#" Link 4
 							li: a href="#" Link 5
+
+			.reveal-modal id="mapModal"
+				h4 This is Where I Work!
+				p
+					img src="http://placehold.it/800x600"
+					a href="#" class="close-reveal-modal" &times;
 
 		 	= javascript_include_tag "application"
