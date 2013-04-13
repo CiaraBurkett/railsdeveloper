@@ -1,6 +1,11 @@
 Railsdeveloper::Application.routes.draw do
 
   root :to => 'high_voltage/pages#show', :id => 'index'
+
+  get 'pages/about' => 'high_voltage/pages#show', :id => 'about'
+  get 'pages/services' => 'high_voltage/pages#show', :id => 'services'
+  get 'pages/portfolio' => 'high_voltage/pages#show', :id => 'portfolio'
+  get 'pages/contact' => 'high_voltage/pages#show', :id => 'contact'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
