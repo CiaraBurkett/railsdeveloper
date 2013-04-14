@@ -19,7 +19,8 @@ body a {
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #2C1901;
-	font-family: 'jubilat', serif;
+	font-family: 'jubilat', Garamond, serif;
+	font-weight: 500;
 }
 .row {
 	margin-top: 60px;
@@ -49,10 +50,13 @@ nav ul li {
 	background-color: #FFF;
 	border: none;
 	border-radius: 8px;
-	color: #A82E2C;
+	color: #2C1901	;
+}
+.panel h4 {
+	color: #2C1901;
 }
 .panel p, label {
-	color: #A82E2C;
+	color: #2C1901	;
 }
 .panel ul {
 	list-style-type: none;
