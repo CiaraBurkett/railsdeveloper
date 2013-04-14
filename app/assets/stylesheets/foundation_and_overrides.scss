@@ -6,3 +6,55 @@
 
 
 @import 'foundation';
+
+/*  Global  */
+body {
+	background-color: #FFF;
+	color: #2C1901;
+	font-family: 'freight-sans-pro', sans-serif;
+	font-weight: 400;
+}
+body a {
+	color: #A82E2C;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #2C1901;
+	font-family: 'jubilat', serif;
+}
+.row {
+	margin-top: 60px;
+}
+
+/*  Header & Navigation  */
+header h1 {
+	font-size: 28px;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+header img {
+	margin-right: 10px;
+	vertical-align: middle;
+	width: 80px;
+
+}
+header img, h1 {
+	display: inline-block;
+}
+nav ul li {
+	text-transform: lowercase;
+}
+
+/*  Panel  */
+.panel {
+	background-color: #FFF;
+	border: none;
+	border-radius: 8px;
+	color: #A82E2C;
+}
+.panel p, label {
+	color: #A82E2C;
+}
+.panel ul {
+	list-style-type: none;
+	text-align: center;
+}
