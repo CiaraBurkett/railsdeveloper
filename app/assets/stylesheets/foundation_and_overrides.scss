@@ -6,7 +6,6 @@
 
 
 @import 'foundation';
-@import 'general_foundicons.css';
 @import 'font-awesome.css';
 
 /*  Global  */
@@ -51,6 +50,10 @@ header img, h1 {
 }
 nav ul li {
 	text-transform: lowercase;
+}
+/*  Icons  */
+p i {
+	font-size: 150px;
 }
 
 /*  Panel  */
