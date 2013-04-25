@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.13'
 gem 'slim'
 gem 'high_voltage'
-# gem 'rack'
+gem 'rack'
 gem 'bloggy'
 
 # Bundle edge Rails instead:
@@ -41,7 +41,7 @@ gem 'jquery-rails'
 # gem 'jbuilder'
 
 # Use unicorn as the app server
-gem 'unicorn'
+# gem 'unicorn'
 
 # Deploy with Capistrano
 # gem 'capistrano'
