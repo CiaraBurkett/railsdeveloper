@@ -2,8 +2,7 @@
 
 // You can find the variables for each component at the bottom of their
 // doc page. We tried to name them to where they'd make sense just by reading them.
-// Go to http://foundation.zurb.com/docs/ to find what you need.
-*/
+// Go to http://foundation.zurb.com/docs/ to find what you need.*/
 
 @import 'foundation';
 @import 'font-awesome';
@@ -36,7 +35,9 @@ body ul {
 .large-4.columns h3, ul {
 	text-align: center;
 }
-
+.button {
+  border: none;
+}
 /*  Header & Navigation  */
 header h1 {
 	font-size: 28px;
