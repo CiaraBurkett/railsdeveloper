@@ -4,7 +4,7 @@
  <title>BLOG_NAME</title>
  <link href="YOUR_URL/atom.xml" rel="self"/>
  <link href="YOUR_URL"/>
- <updated>2013-04-13T15:54:49-04:00</updated>
+ <updated>2013-06-19T09:08:00-04:00</updated>
  <id>BLOG_URL</id>
  <author>
    <name>BLOG_NAME</name>
@@ -12,11 +12,13 @@
 
  
  <entry>
-   <title>A Test Post</title>
-   <link href="YOUR_URL/a-test-post.html"/>
-   <updated>2012-04-25T00:00:00-04:00</updated>
-   <id>BLOG_URL/a-test-post</id>
-   <content type="html">&lt;p&gt;Zach was bored while his girlfriend and her sister were talking and watching the voice. so this gem was created to generate a blog inside my rails application for my engine yard blog post.&lt;/p&gt;
+   <title>letters_to_a_new_coder</title>
+   <link href="YOUR_URL/letters-to-a-new-coder.html"/>
+   <updated>2013-06-19T00:00:00-04:00</updated>
+   <id>BLOG_URL/letters-to-a-new-coder</id>
+   <content type="html">&lt;h3&gt;Letters to a New Coder&lt;/h3&gt;
+
+&lt;p&gt;Testing!  Detailed post coming soon...&lt;/p&gt;
 </content>
  </entry>
  
