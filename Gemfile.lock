@@ -32,6 +32,8 @@ GEM
     better_errors (0.8.0)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
+    binding_of_caller (0.7.1)
+      debug_inspector (>= 0.0.1)
     bloggy (0.2.1)
       jekyll
       rack-contrib
@@ -48,6 +50,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    debug_inspector (0.0.2)
     directory_watcher (1.5.1)
     erubis (2.7.0)
     execjs (1.4.0)
@@ -147,6 +150,7 @@ PLATFORMS
 
 DEPENDENCIES
   better_errors
+  binding_of_caller
   bloggy
   coffee-rails (~> 3.2.1)
   high_voltage
