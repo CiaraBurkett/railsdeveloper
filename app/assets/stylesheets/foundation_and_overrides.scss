@@ -29,6 +29,9 @@ body ul {
 	font-size: 18px;
 	list-style-type: none;
 }
+ul.portfolio {
+  text-align: left;
+}
 .row {
 	margin-top: 60px;
 }
@@ -48,7 +51,6 @@ header img {
 	margin-right: 10px;
 	vertical-align: middle;
 	width: 90px;
-
 }
 header img, h1 {
 	display: inline-block;
