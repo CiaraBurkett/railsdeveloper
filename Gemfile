@@ -5,7 +5,6 @@ gem 'rails', '3.2.13'
 gem 'slim'
 gem 'high_voltage'
 gem 'rack'
-gem 'bloggy'
 gem 'google-analytics-rails'
 
 # Bundle edge Rails instead:
